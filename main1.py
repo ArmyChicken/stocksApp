@@ -6,7 +6,7 @@ class Main:
 
     def main():
         app = TkinterApp()
-        app.tkinterRun()
+        #app.tkinterRun()
 
 if __name__ == '__main__':
     Main.main()

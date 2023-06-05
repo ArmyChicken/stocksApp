@@ -31,8 +31,8 @@ class TkinterApp:
         self.root.mainloop()
 
     def button_func(self, stockInput, labelCurrency,labelStockPrice):
-            apiData = self.api_finance.api(stockInput.get())
-            #labelCurrency.config(text = apiData['currency'])
-            labelStockPrice.config(text = 'Stock price is ' + str(apiData['stockPrice'] )) # + str(apiData['currency'])
+        apiData = self.api_finance.api(stockInput.get())
+        #labelCurrency.config(text = apiData['currency'])
+        labelStockPrice.config(text = 'Stock price is ' + str(apiData['stockPrice'] )) # + str(apiData['currency'])
 
 
